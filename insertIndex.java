@@ -4,7 +4,10 @@ class Main{
         String str="hello";
         StringBuilder sc=new StringBuilder(str);
         int index=3;
-        sc.insert(5,"Geeks");
-        System.out.print(sc);
+        sc.insert(5,"Geek");
+         System.out.print(sc);
+        char a='s';
+        String str1=str+a;
+        System.out.print(str1);
     }
 }
