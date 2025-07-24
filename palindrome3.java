@@ -3,6 +3,7 @@ import java.util.*;
 class Main {
     public static boolean isPalindrome(String s){
         int n=s.length();
+        s=s.toLowerCase();
         for(int i=0;i<n;i++){
             if(s.charAt(i)!=s.charAt(n-1-i)){
                 return false;
