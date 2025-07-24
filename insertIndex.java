@@ -5,9 +5,9 @@ class Main{
         StringBuilder sc=new StringBuilder(str);
         int index=3;
         sc.insert(5,"Geek");
-         System.out.print(sc);
+         System.out.println(sc);
         char a='s';
         String str1=str+a;
-        System.out.print(str1);
+        System.out.println(str1);
     }
 }
